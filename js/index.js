@@ -94,6 +94,7 @@ const fetchUserRepos = (userData, repos) => {
 	
 			a.textContent = element.name;
 			a.href = element.html_url;
+			a.target = '_blank';
 			li.append(a);
 			ul.append(li);
 
